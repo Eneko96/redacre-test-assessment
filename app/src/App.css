@@ -10,5 +10,5 @@
 label {
   font-weight: 400;
   font-size: 14px;
-  color: #9C9C9C;
+  color: var(--neutral_3);
 }

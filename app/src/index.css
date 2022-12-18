@@ -44,6 +44,9 @@
     --neutral_0: #000000;
     --accent_0: #6368DF;
     --live: #5DBE7E;
+    --hover: #5E9D9F;
+    --input-hover: #B5D9BB;
+    --focus: #223CC7;
 }
 
 * {

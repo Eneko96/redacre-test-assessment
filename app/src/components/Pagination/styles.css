@@ -22,12 +22,12 @@
 }
 
 .pagination-page:focus-visible {
-  outline: 1px solid #5E9D9F;
+  outline: 1px solid var(--hover);
 }
 
 .pagination-page.active {
   background-color: black;
-  color: white;
+  color: var(--neutral_10);
 }
 
 .pagination-handler {
@@ -42,17 +42,17 @@
 }
 
 .pagination-handler:hover {
-  color: #5E9D9F;
+  color: var(--hover);
 }
 
 .pagination-handler:focus {
-  color: #223CC7;
+  color: var(--focus);
 }
 
 .pagination-handler:hover path {
-  fill: #5E9D9F;
+  fill: var(--hover);
 }
 
 .pagination-handler:focus path {
-  fill: #223CC7;
+  fill: var(--focus);
 }

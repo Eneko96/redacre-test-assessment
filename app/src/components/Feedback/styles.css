@@ -6,12 +6,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #49CD5E;
+  background-color: var(--success_0);
 }
 
 .feedback-text {
   text-align: center;
   font-weight: 700;
   line-height: 21px;
-  color: white;
+  color: var(--neutral_10);
 }

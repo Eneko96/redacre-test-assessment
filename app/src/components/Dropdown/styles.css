@@ -21,11 +21,11 @@
 
 .dropdown-toggle:active, .dropdown-toggle:focus-visible {
   outline: none;
-  border: 1px solid #49CD5E;
+  border: 1px solid var(--success_0);
 }
 
 .dropdown-toggle:hover {
-  border: 1px solid #B5D9BB;
+  border: 1px solid var(--input-hover);
 }
 
 
