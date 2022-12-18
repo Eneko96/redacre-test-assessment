@@ -1,0 +1,12 @@
+.header-select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+}
+
+.header-select > label {
+  text-align: start;
+}
+  

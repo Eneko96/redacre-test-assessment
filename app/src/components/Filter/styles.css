@@ -1,0 +1,24 @@
+.filter-toolset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: fit-content;
+  gap: 1rem;
+}
+
+.filter-toolset-submit {
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #1B31A8;
+  border: 1px solid #1B31A8;
+  background-color: transparent;
+}
+
+.filter-toolset-reset {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #E1E8ED;
+  background-color: transparent;
+}

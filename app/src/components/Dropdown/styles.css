@@ -1,0 +1,99 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  transform: 10px 0;
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: calc(var(--unit) / 2);
+}
+
+
+.dropdown-toggle.large {
+  width: 200px;
+}
+
+.dropdown-toggle:active, .dropdown-toggle:focus-visible {
+  outline: none;
+  border: 1px solid #49CD5E;
+}
+
+.dropdown-toggle:hover {
+  border: 1px solid #B5D9BB;
+}
+
+
+
+.dropdown-menu.large {
+  width: 200px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 8px 12px 24px;
+  height: 48px;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:first-of-type {
+  border-top-left-radius: calc(var(--unit) / 2);
+  border-top-right-radius: calc(var(--unit) / 2);
+}
+
+.dropdown-item:last-of-type {
+  border-bottom-left-radius: calc(var(--unit) / 2);
+  border-bottom-right-radius: calc(var(--unit) / 2);
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-item:not(:last-of-type) {
+  border-bottom: 1px solid var(--neutral_2);
+}
+
+.dropdown-toggle {
+  padding: 13px 16px 8px 16px;
+  border-radius: calc(var(--unit) / 2);
+  border: 1px solid var(--neutral_2);
+  width: 100%;
+  appearance: none;
+  max-height: 42px;
+}
+
+.dropdown-toggle::after {
+  content: url('../../assets/Vector.svg');
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: 16px;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 160px;
+  position: relative;
+}
+
+.dropdown-toggle.large {
+  width: 200px;
+}
+

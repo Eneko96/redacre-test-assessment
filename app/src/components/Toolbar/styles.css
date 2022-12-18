@@ -1,0 +1,125 @@
+
+.toolbar .toolbar-title {
+  text-align: start;
+  font-size: calc(2rem + var(--unit));
+  font-weight: 700;
+  line-height: 36.53px;
+  margin-bottom: 27px;
+}
+
+.toolbar .toolbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-actions .toolbar-left {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-right: 16px;
+}
+
+.toolbar .toolbar-separator {
+  padding: 13px 0 8px 0;
+  margin-top: auto;
+}
+
+.toolbar-actions .toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-left: 16px;
+}
+
+.toolbar-right > .select:first-child > select {
+  background-color: var(--neutral_2);
+}
+
+.toolbar .toolbar-save {
+  padding: 12px 24px;
+  border: 1px solid var(--neutral_2);
+  border-radius: calc(var(--unit) / 2);
+  background-color: var(--success_0);
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 600;
+  color: var(--neutral_10); 
+  margin-left: 16px;
+  margin-top: auto;
+}
+
+select {
+  padding: 13px 16px 8px 16px;
+  border-radius: calc(var(--unit) / 2);
+  border: 1px solid var(--neutral_2);
+  width: 100%;
+  appearance: none;
+}
+
+.select::after {
+  content: url('../../assets/Vector.svg');
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: 16px;
+  top: 50%;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 160px;
+  position: relative;
+}
+
+.select.large {
+  width: 200px;
+}
+
+.select:has(label) {
+  flex-direction: column;
+  gap: 2px;
+}
+
+.select > label {
+  margin-right: auto;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 160px;
+  position: relative;
+}
+
+.input.large {
+  width: 200px;
+}
+
+.input:has(label) {
+  flex-direction: column;
+  gap: 2px;
+}
+
+.input > label {
+  margin-right: auto;
+}
+
+input {
+  padding: 13px 16px 8px 16px;
+  border-radius: calc(var(--unit) / 2);
+  border: 1px solid var(--neutral_2);
+  width: 100%;
+  height: 42px;
+}
+
+input:hover {
+  border: 1px solid #B5D9BB;
+}
+
+input:focus-visible {
+  border: 1px solid #49CD5E;
+  outline: none;
+}

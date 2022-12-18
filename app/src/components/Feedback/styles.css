@@ -1,0 +1,17 @@
+.feedback {
+  display: grid;
+  place-content: center;
+  height: 48px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #49CD5E;
+}
+
+.feedback-text {
+  text-align: center;
+  font-weight: 700;
+  line-height: 21px;
+  color: white;
+}

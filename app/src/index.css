@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/Red_Hat_Display/static/RedHatDisplay-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400
+};
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/Red_Hat_Display/static/RedHatDisplay-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700
+};
+
+:root {
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+    /* Spacing */
+    --unit: 1rem;
+
+    /* Colors */
+    --success_0: #49CD5E;
+    --neutral_1: #EEEEEE;
+    --neutral_2: #E0E0E0;
+    --neutral_3: #9C9C9C;
+    --neutral_10: #FFFFFF;
+    --neutral_0: #000000;
+    --accent_0: #6368DF;
+    --live: #5DBE7E;
+}
+
+* {
+  font-family: 'Red Hat Display', system-ui;
+  box-sizing: border-box;
+}
+
+/* add color variables */
